@@ -1,1 +1,5 @@
-<p>blog-page-main works!</p>
+<ul>
+  <li *ngFor="let post of postList;">
+    <a class="ButtonLink" (click)="store(post.url)" routerLink="../Post">{{post.name}}</a>
+  </li>
+</ul>

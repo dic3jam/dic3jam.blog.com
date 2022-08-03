@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
-import { HomeMainComponent } from './home-main/home-main.component';
+import {Component, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
   title = 'dic3jam-blog';

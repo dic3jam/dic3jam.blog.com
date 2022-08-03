@@ -1,0 +1,9 @@
+.main {
+  grid-column: 2 / -1;
+  grid-row: 1 / 4;
+}
+
+img {
+  width: 100px;
+  height: 200px;
+}

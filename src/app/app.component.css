@@ -8,12 +8,36 @@
   grid-row: 1 / 5;
 }
 
+.router {
+  grid-column: 1 / 1;
+  grid-row: 5 / 5;
+}
+
 .main {
   grid-column: 2 / -1;
   grid-row: 1 / 4;
 }
 
 .footer {
-  grid-column: 1 / -1;
+  grid-column: 2 / -1;
   grid-row: 5 / -1;
+}
+
+nav a {
+  display: block;
+  color: #F87000;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  background-color: #F87000;
+  color: #FFC042;
+}
+
+.link a h2 {
+  text-decoration: underline;
+}
+
+.link a h2:hover {
+  color: #fc4503;
 }

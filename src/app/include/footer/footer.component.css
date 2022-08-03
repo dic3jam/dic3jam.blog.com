@@ -1,0 +1,18 @@
+img {
+
+}
+
+#git {
+  grid-column: 1 / 2;
+  margin-right: 15px;
+}
+
+#in {
+  grid-column: 2 / 3;
+  margin-right: 15px;
+}
+
+#twit {
+  grid-column: 3 / 4;
+  margin-right: 15px;
+}

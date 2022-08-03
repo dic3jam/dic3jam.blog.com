@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-main.component.css']
 })
 export class HomeMainComponent implements OnInit {
+  thinking: string;
+  reading: string;
 
-  constructor() { }
+  constructor() {
+    this.thinking = "assets/Blurbs/thinking.md";
+    this.reading = "assets/Blurbs/reading.md";
+  }
 
   ngOnInit(): void {
   }
