@@ -2,3 +2,16 @@
   grid-column: 2 / -1;
   grid-row: 1 / 4;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+li {
+  padding: 1em;
+}

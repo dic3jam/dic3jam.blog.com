@@ -11,7 +11,8 @@ import { HomeMainComponent } from './home-main/home-main.component';
 import { BlogPageMainComponent } from './blog-page-main/blog-page-main.component';
 import { BlogPostMainComponent } from './blog-post-main/blog-post-main.component';
 import { ResumeMainComponent } from './resume-main/resume-main.component';
-import {BlogPostReaperService} from "./include/blog-post-reaper/blog-post-reaper.service";
+import { BlogPostReaperService } from "./include/blog-post-reaper/blog-post-reaper.service";
+import { PdfViewerModule } from "ng2-pdf-viewer";
 
 @NgModule({
   declarations: [
@@ -30,8 +31,9 @@ import {BlogPostReaperService} from "./include/blog-post-reaper/blog-post-reaper
       {path: '', component: HomeMainComponent},
       {path: 'Blog', component: BlogPageMainComponent},
       {path: 'Resume', component: ResumeMainComponent},
-      {path: 'Post', component: BlogPostMainComponent}
+      {path: 'Post', component: BlogPostMainComponent},
     ]),
+    PdfViewerModule,
     MarkdownModule.forRoot()
   ],
   providers: [BlogPostReaperService],

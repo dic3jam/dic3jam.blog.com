@@ -3,7 +3,7 @@
   grid-row: 1 / 4;
 }
 
-img {
-  width: 100px;
-  height: 200px;
+markdown img {
+  width: 300px;
+  height: 400px;
 }
